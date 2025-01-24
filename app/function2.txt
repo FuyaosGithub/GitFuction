@@ -2,3 +2,5 @@ function2 test
 modify function 2
 
 modify function 2 again
+
+modify function 2 name
