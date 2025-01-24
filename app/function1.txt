@@ -1,0 +1,2 @@
+create function 1
+create function 2
