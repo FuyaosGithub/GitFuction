@@ -1,1 +1,2 @@
 create function3 file
+add some functions
