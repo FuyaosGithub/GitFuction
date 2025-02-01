@@ -7,3 +7,15 @@ git pull origin main
 git checkout feat/pushfrombranch
 git rebase main
 git push origin main
+
+以上失敗，無法直接推遠端 main
+改以下方式：
+
+git switch -c feat/pushfrombranch
+add pushfrombranch.txt
+git add .
+git commit -m "feat: add pushfrombranch"
+git checkout main
+git pull origin main
+git rebase feat/pushfrombranch
+git push origin main
